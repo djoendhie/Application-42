@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Baskerville.ttc">
+            <string>Baskerville-BoldItalic</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="m5Q-NV-GW8">
+                                <rect key="frame" x="0.0" y="96" width="375" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="6bb-Rj-qPQ"/>
+                                    <constraint firstAttribute="width" constant="375" id="eBd-7k-fnn"/>
+                                    <constraint firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="sda-WN-MsE"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="O4s-40-Kz7">
+                                <rect key="frame" x="127" y="474" width="121" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="F16-pe-Xhv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resep Masakan Sulawesi Tengah" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bp-gc-jBW">
+                                <rect key="frame" x="18" y="317" width="339" height="25"/>
+                                <fontDescription key="fontDescription" name="Baskerville-BoldItalic" family="Baskerville" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9916905761" green="0.77991443869999999" blue="0.4689428806" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="9HL-cF-jpN"/>
+                            <constraint firstItem="4bp-gc-jBW" firstAttribute="top" secondItem="m5Q-NV-GW8" secondAttribute="bottom" constant="1" id="9YU-dD-7lE"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="A2E-lp-037"/>
+                            <constraint firstItem="4bp-gc-jBW" firstAttribute="centerX" secondItem="m5Q-NV-GW8" secondAttribute="centerX" id="B9K-Vc-z9t"/>
+                            <constraint firstItem="O4s-40-Kz7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="Cmt-e4-4Ot"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="IWD-EY-en0"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="JEK-0u-Rcf"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="JYa-cJ-oo9"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="Jix-QR-T3B"/>
+                            <constraint firstItem="O4s-40-Kz7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KLO-kC-D8c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="O4s-40-Kz7" secondAttribute="bottom" constant="97" id="LeE-rD-viB"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="O8W-Hq-1D3"/>
+                            <constraint firstItem="O4s-40-Kz7" firstAttribute="centerX" secondItem="4bp-gc-jBW" secondAttribute="centerX" id="hAK-Cf-HWf"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="hL8-gK-ReW"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="jS8-2t-ghh"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="kAo-7K-0GY"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="kcN-hb-Ram"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="qLr-37-wRB"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="s9c-mh-AJ2"/>
+                            <constraint firstItem="m5Q-NV-GW8" firstAttribute="width" secondItem="m5Q-NV-GW8" secondAttribute="height" multiplier="75:44" id="y71-Fh-V5r"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="225" height="225"/>
+        <image name="images" width="341" height="148"/>
+    </resources>
+</document>

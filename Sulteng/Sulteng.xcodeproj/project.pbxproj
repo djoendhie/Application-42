@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C1179AEBAAC1ACD79165E2 /* Pods_Sulteng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F50B86A90008C63E54D808 /* Pods_Sulteng.framework */; };
+		D68DC8931FD13D790069A97E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68DC8921FD13D790069A97E /* TableViewCell.swift */; };
+		D68DC8951FD13D840069A97E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68DC8941FD13D840069A97E /* TableViewController.swift */; };
+		D6CB3E101FC95368004F8248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3E0F1FC95368004F8248 /* AppDelegate.swift */; };
+		D6CB3E121FC95368004F8248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3E111FC95368004F8248 /* ViewController.swift */; };
+		D6CB3E151FC95368004F8248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3E131FC95368004F8248 /* Main.storyboard */; };
+		D6CB3E171FC95368004F8248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3E161FC95368004F8248 /* Assets.xcassets */; };
+		D6CB3E1A1FC95368004F8248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB3E181FC95368004F8248 /* LaunchScreen.storyboard */; };
+		D6CB3E251FC95369004F8248 /* SultengTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3E241FC95369004F8248 /* SultengTests.swift */; };
+		D6CB3E301FC95369004F8248 /* SultengUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CB3E2F1FC95369004F8248 /* SultengUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6CB3E211FC95369004F8248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB3E041FC95368004F8248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB3E0B1FC95368004F8248;
+			remoteInfo = Sulteng;
+		};
+		D6CB3E2C1FC95369004F8248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB3E041FC95368004F8248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB3E0B1FC95368004F8248;
+			remoteInfo = Sulteng;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21F50B86A90008C63E54D808 /* Pods_Sulteng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sulteng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		575D120203B4291131203E40 /* Pods-Sulteng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sulteng.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sulteng/Pods-Sulteng.release.xcconfig"; sourceTree = "<group>"; };
+		D68DC8921FD13D790069A97E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D68DC8941FD13D840069A97E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D6CB3E0C1FC95368004F8248 /* Sulteng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sulteng.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3E0F1FC95368004F8248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6CB3E111FC95368004F8248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6CB3E141FC95368004F8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CB3E161FC95368004F8248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6CB3E191FC95368004F8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CB3E1B1FC95368004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB3E201FC95369004F8248 /* SultengTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SultengTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3E241FC95369004F8248 /* SultengTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SultengTests.swift; sourceTree = "<group>"; };
+		D6CB3E261FC95369004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB3E2B1FC95369004F8248 /* SultengUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SultengUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB3E2F1FC95369004F8248 /* SultengUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SultengUITests.swift; sourceTree = "<group>"; };
+		D6CB3E311FC95369004F8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC223FE0B84F93B9AA28D3F9 /* Pods-Sulteng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sulteng.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sulteng/Pods-Sulteng.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CB3E091FC95368004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C1179AEBAAC1ACD79165E2 /* Pods_Sulteng.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3E1D1FC95369004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3E281FC95369004F8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF03A909364CBAC7FAEA881F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21F50B86A90008C63E54D808 /* Pods_Sulteng.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D56AE7752281A856CBFB2E15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC223FE0B84F93B9AA28D3F9 /* Pods-Sulteng.debug.xcconfig */,
+				575D120203B4291131203E40 /* Pods-Sulteng.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6CB3E031FC95368004F8248 = {
+			isa = PBXGroup;
+			children = (
+				D6CB3E0E1FC95368004F8248 /* Sulteng */,
+				D6CB3E231FC95369004F8248 /* SultengTests */,
+				D6CB3E2E1FC95369004F8248 /* SultengUITests */,
+				D6CB3E0D1FC95368004F8248 /* Products */,
+				D56AE7752281A856CBFB2E15 /* Pods */,
+				AF03A909364CBAC7FAEA881F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CB3E0D1FC95368004F8248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3E0C1FC95368004F8248 /* Sulteng.app */,
+				D6CB3E201FC95369004F8248 /* SultengTests.xctest */,
+				D6CB3E2B1FC95369004F8248 /* SultengUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CB3E0E1FC95368004F8248 /* Sulteng */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3E0F1FC95368004F8248 /* AppDelegate.swift */,
+				D6CB3E131FC95368004F8248 /* Main.storyboard */,
+				D6CB3E161FC95368004F8248 /* Assets.xcassets */,
+				D6CB3E181FC95368004F8248 /* LaunchScreen.storyboard */,
+				D6CB3E1B1FC95368004F8248 /* Info.plist */,
+				D68DC8921FD13D790069A97E /* TableViewCell.swift */,
+				D6CB3E111FC95368004F8248 /* ViewController.swift */,
+				D68DC8941FD13D840069A97E /* TableViewController.swift */,
+			);
+			path = Sulteng;
+			sourceTree = "<group>";
+		};
+		D6CB3E231FC95369004F8248 /* SultengTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3E241FC95369004F8248 /* SultengTests.swift */,
+				D6CB3E261FC95369004F8248 /* Info.plist */,
+			);
+			path = SultengTests;
+			sourceTree = "<group>";
+		};
+		D6CB3E2E1FC95369004F8248 /* SultengUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB3E2F1FC95369004F8248 /* SultengUITests.swift */,
+				D6CB3E311FC95369004F8248 /* Info.plist */,
+			);
+			path = SultengUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CB3E0B1FC95368004F8248 /* Sulteng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3E341FC95369004F8248 /* Build configuration list for PBXNativeTarget "Sulteng" */;
+			buildPhases = (
+				DA9855E2698B22AD30424E9B /* [CP] Check Pods Manifest.lock */,
+				D6CB3E081FC95368004F8248 /* Sources */,
+				D6CB3E091FC95368004F8248 /* Frameworks */,
+				D6CB3E0A1FC95368004F8248 /* Resources */,
+				73B5C768BDD33B97A19D97E5 /* [CP] Embed Pods Frameworks */,
+				A2FDF662D2F384F0CD446A82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sulteng;
+			productName = Sulteng;
+			productReference = D6CB3E0C1FC95368004F8248 /* Sulteng.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6CB3E1F1FC95369004F8248 /* SultengTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3E371FC95369004F8248 /* Build configuration list for PBXNativeTarget "SultengTests" */;
+			buildPhases = (
+				D6CB3E1C1FC95369004F8248 /* Sources */,
+				D6CB3E1D1FC95369004F8248 /* Frameworks */,
+				D6CB3E1E1FC95369004F8248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB3E221FC95369004F8248 /* PBXTargetDependency */,
+			);
+			name = SultengTests;
+			productName = SultengTests;
+			productReference = D6CB3E201FC95369004F8248 /* SultengTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6CB3E2A1FC95369004F8248 /* SultengUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB3E3A1FC95369004F8248 /* Build configuration list for PBXNativeTarget "SultengUITests" */;
+			buildPhases = (
+				D6CB3E271FC95369004F8248 /* Sources */,
+				D6CB3E281FC95369004F8248 /* Frameworks */,
+				D6CB3E291FC95369004F8248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB3E2D1FC95369004F8248 /* PBXTargetDependency */,
+			);
+			name = SultengUITests;
+			productName = SultengUITests;
+			productReference = D6CB3E2B1FC95369004F8248 /* SultengUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CB3E041FC95368004F8248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D6CB3E0B1FC95368004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D6CB3E1F1FC95369004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CB3E0B1FC95368004F8248;
+					};
+					D6CB3E2A1FC95369004F8248 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CB3E0B1FC95368004F8248;
+					};
+				};
+			};
+			buildConfigurationList = D6CB3E071FC95368004F8248 /* Build configuration list for PBXProject "Sulteng" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CB3E031FC95368004F8248;
+			productRefGroup = D6CB3E0D1FC95368004F8248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CB3E0B1FC95368004F8248 /* Sulteng */,
+				D6CB3E1F1FC95369004F8248 /* SultengTests */,
+				D6CB3E2A1FC95369004F8248 /* SultengUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CB3E0A1FC95368004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3E1A1FC95368004F8248 /* LaunchScreen.storyboard in Resources */,
+				D6CB3E171FC95368004F8248 /* Assets.xcassets in Resources */,
+				D6CB3E151FC95368004F8248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3E1E1FC95369004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3E291FC95369004F8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73B5C768BDD33B97A19D97E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sulteng/Pods-Sulteng-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sulteng/Pods-Sulteng-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2FDF662D2F384F0CD446A82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sulteng/Pods-Sulteng-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9855E2698B22AD30424E9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sulteng-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CB3E081FC95368004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68DC8931FD13D790069A97E /* TableViewCell.swift in Sources */,
+				D6CB3E121FC95368004F8248 /* ViewController.swift in Sources */,
+				D6CB3E101FC95368004F8248 /* AppDelegate.swift in Sources */,
+				D68DC8951FD13D840069A97E /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3E1C1FC95369004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3E251FC95369004F8248 /* SultengTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB3E271FC95369004F8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB3E301FC95369004F8248 /* SultengUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6CB3E221FC95369004F8248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB3E0B1FC95368004F8248 /* Sulteng */;
+			targetProxy = D6CB3E211FC95369004F8248 /* PBXContainerItemProxy */;
+		};
+		D6CB3E2D1FC95369004F8248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB3E0B1FC95368004F8248 /* Sulteng */;
+			targetProxy = D6CB3E2C1FC95369004F8248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6CB3E131FC95368004F8248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB3E141FC95368004F8248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6CB3E181FC95368004F8248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB3E191FC95368004F8248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CB3E321FC95369004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6CB3E331FC95369004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CB3E351FC95369004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC223FE0B84F93B9AA28D3F9 /* Pods-Sulteng.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sulteng/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Sulteng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CB3E361FC95369004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575D120203B4291131203E40 /* Pods-Sulteng.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sulteng/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Sulteng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6CB3E381FC95369004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SultengTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SultengTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sulteng.app/Sulteng";
+			};
+			name = Debug;
+		};
+		D6CB3E391FC95369004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SultengTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SultengTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sulteng.app/Sulteng";
+			};
+			name = Release;
+		};
+		D6CB3E3B1FC95369004F8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SultengUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SultengUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sulteng;
+			};
+			name = Debug;
+		};
+		D6CB3E3C1FC95369004F8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SultengUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SultengUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sulteng;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CB3E071FC95368004F8248 /* Build configuration list for PBXProject "Sulteng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3E321FC95369004F8248 /* Debug */,
+				D6CB3E331FC95369004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3E341FC95369004F8248 /* Build configuration list for PBXNativeTarget "Sulteng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3E351FC95369004F8248 /* Debug */,
+				D6CB3E361FC95369004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3E371FC95369004F8248 /* Build configuration list for PBXNativeTarget "SultengTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3E381FC95369004F8248 /* Debug */,
+				D6CB3E391FC95369004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB3E3A1FC95369004F8248 /* Build configuration list for PBXNativeTarget "SultengUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB3E3B1FC95369004F8248 /* Debug */,
+				D6CB3E3C1FC95369004F8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CB3E041FC95368004F8248 /* Project object */;
+}
